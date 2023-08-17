@@ -1,0 +1,130 @@
+@media (max-width: 991px) {
+    .header {
+        display: block !important;
+    }
+
+    .header .logo {
+        display: none;
+    }
+
+    .header .navbar {
+        display: flex;
+        /* margin-top: 20px; */
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header .navbar a {
+        margin-left: 0px !important;
+    }
+
+    .home {
+        margin-top: 40px;
+        height: 172vh;
+        display: block !important;
+    }
+
+    .homeContent {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .homeContent p br {
+        display: none;
+    }
+
+    .homeContent h1 {
+        font-size: 30px;
+        margin-top: 10px
+    }
+
+    .homeContent h3 {
+        font-size: 20px;
+        margin-top: 10px
+    }
+
+    .socialMedia {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0px;
+    }
+
+    .socialMedia a {
+        margin: 0 !important;
+    }
+
+    .buttonBox {
+        width: 100%;
+        display: flex;
+        margin-top: 25px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .homeimage {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .homeimage img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .serviceSection {
+        height: auto;
+    }
+
+    .about {
+        height: 65vh !important;
+        align-items: start;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .aboutText {
+        width: 100%;
+        padding: 0px 25px;
+    }
+
+    .aboutText h2 {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .mySkillsAbout {
+        margin-top: 70px
+    }
+
+    .mySkills {
+        width: 100%;
+        margin: 50px 0px;
+    }
+
+    .aboutText h3 {
+        font-size: 18px;
+    }
+
+    .services .container {
+        display: block;
+    }
+
+    .contactBar {
+        height: 30vh;
+    }
+
+    .footerBaar {
+        display: block;
+    }
+
+    .footerBaars {
+        margin: 10px;
+    }
+}
